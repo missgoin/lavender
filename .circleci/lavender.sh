@@ -10,7 +10,7 @@ set -e
 KERNEL_DIR="$(pwd)"
 VERSION=01
 MODEL=Xiaomi
-DEVICE=Lavender
+DEVICE=lavender
 DEFCONFIG=${DEVICE}-perf_defconfig
 IMAGE=$(pwd)/out/arch/arm64/boot/Image.gz-dtb
 #C_BRANCH=$(git branch --show-current)
